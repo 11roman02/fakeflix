@@ -28,6 +28,7 @@ const Detail = () => {
     }, [category, id]);
     
 
+    
     return (
         <>
             {
