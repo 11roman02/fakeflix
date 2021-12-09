@@ -28,7 +28,7 @@ const Detail = () => {
     }, [category, id]);
     
 
-    
+    //hello
     return (
         <>
             {
