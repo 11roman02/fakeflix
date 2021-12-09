@@ -49,7 +49,7 @@ const Detail = () => {
                                         ))
                                     }
                                 </div>
-                                <div className="date">Rok vydání: {item.release_date}</div>
+                                /*<div className="date">Rok vydání: {item.release_date}</div>*/
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
                                     <div className="section__header">
