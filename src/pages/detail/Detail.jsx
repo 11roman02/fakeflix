@@ -14,7 +14,7 @@ import tmbdApi from '../../api/tmdbApi';
 
 const Detail = () => {
 
-    const { category, id, release_date} = useParams();
+    const { category, id} = useParams();
 
     const [item, setItem] = useState(null);
 
@@ -49,7 +49,7 @@ const Detail = () => {
                                         ))
                                     }
                                 </div>
-                                <div className="date">Rok vydání: {item.release_date}</div>
+                                <div className="date">Datum vydání: {item.release_date}</div>
                                 <p className="overview">{item.overview}</p>
                                 <div className="cast">
                                     <div className="section__header">
