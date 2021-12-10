@@ -59,7 +59,7 @@ const HeroSlide = () => {
 }
 
 
-//text
+
 const HeroSlideItem = props => {
 
     let hisrory = useHistory();
