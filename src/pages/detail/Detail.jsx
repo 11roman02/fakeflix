@@ -27,6 +27,7 @@ const Detail = () => {
         getDetail();
     }, [category, id]);
     
+    
 
     return (
         <>
