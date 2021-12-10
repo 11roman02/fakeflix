@@ -25,7 +25,7 @@ const Home = () => {
                     <div className="section__header mb-2">
                         <h2>Populární</h2>
                         <Link to="/movie">
-                            <OutlineButton className="small">Zobrazit víc</OutlineButton>
+                            <OutlineButton className="small">Zobrazit více</OutlineButton>
                         </Link>
                     </div>
                     <MovieList category={category.movie} type={movieType.top_rated}/>
