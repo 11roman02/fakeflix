@@ -37,7 +37,7 @@ const MovieList = props => {
         }
         getList();
     }, );
-
+console.log();
     return (
         <div className="movie-list">
             <Swiper
