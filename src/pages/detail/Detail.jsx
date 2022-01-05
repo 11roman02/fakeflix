@@ -9,7 +9,9 @@ import CastList from './CastList';
 import VideoList from './VideoList';
 
 import MovieList from '../../components/movie-list/MovieList';
+// eslint-disable-next-line 
 import MovieCard from '../../components/movie-card/MovieCard';
+// eslint-disable-next-line 
 import tmbdApi from '../../api/tmdbApi';
 
 const Detail = () => {

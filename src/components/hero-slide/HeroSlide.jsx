@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import SwiperCore, { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import Button, { OutlineButton } from '../button/Button';
+import Button from '../button/Button';
 import Modal, { ModalContent } from '../modal/Modal';
 
 import tmdbApi, { category, movieType } from '../../api/tmdbApi';
@@ -96,9 +96,6 @@ const HeroSlideItem = props => {
                         <Button onClick={() => hisrory.push('/movie/' + item.id)}>
                             Sledovat teď
                         </Button>
-                        <OutlineButton onClick={setModalActive}>
-                            Sledovat Trailer
-                        </OutlineButton>
                     </div>
                 </div>
                 <div className="hero-slide__item__content__poster">

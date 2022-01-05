@@ -23,7 +23,7 @@ const Home = () => {
 
                 <div className="section mb-3">
                     <div className="section__header mb-2">
-                        <h2>Populární</h2>
+                        <h2>Populární filmy</h2>
                         <Link to="/movie">
                             <OutlineButton className="small">Zobrazit více</OutlineButton>
                         </Link>
